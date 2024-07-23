@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temperature Converter</title>
+    
     <!-- CSS Style -->
    <link rel="stylesheet" href="style.css">
 
@@ -31,8 +32,13 @@
                 </div>
             </div>
 
-            <h1>Temperature Converter</h1>
-
+              <!-- Heading -->
+            <div class="title">
+                <h1>Temperature Converter</h1>
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+            </div>
+            
+                <!-- Taking input -->
             <div class="input-field">
                 <label for="temperature">Degree :</label>
                 <input type="number" id="temperature" placeholder="Enter Temperature">
@@ -65,18 +71,19 @@
 
             
 
-            
+             <!-- Showing Result -->
             <div class="result-field">
                 <label for="result">Result :</label>
                 <input type="text" id="result" readonly>
             </div>
             
-
+             <!-- Button -->
             <button onclick="convert()" id="convert-btn">Convert</button>
                
         </div>
 
     </div>
+
        <!-- Javascript -->
     <script src="index.js"></script>
 

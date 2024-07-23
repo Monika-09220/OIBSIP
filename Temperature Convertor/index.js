@@ -5,7 +5,7 @@ function convert(){
     var temperature = parseFloat(document.getElementById('temperature').value);
     
 
-    var converttedValue;
+    var convertedValue;
     var resultUnit;
 
     
